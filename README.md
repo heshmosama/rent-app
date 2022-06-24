@@ -7,6 +7,15 @@ $ docker-compose up -d
 ```
 ### This will generate two services :
    1. Rent-flutter:
-      this for the flutter app and it is mapped to port :8000
+      this for the flutter app and it is mapped to port :8000 
    2. Rent-service:
       this backend middleware api and it is mapped to port :3000
+### Note !
+To start sagger:
+```
+http://localhost:3000/api/
+```
+To start web application 
+```
+http://localhost:8000/#/
+```
