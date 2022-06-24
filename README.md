@@ -1,4 +1,4 @@
-# Life Vision Task application
+# Life Vision Task Application
 Life vision flutter task application. it presents some accounts data from Microsoft dataverse. users allowed to review, search and filter accounts' data. the flutter app calls a backend middleware service and the middleware service call Microsoft dataverse.
 
 ## To Run Docker file:
