@@ -8,7 +8,7 @@ Rent service ....
 ```bash
 $ docker-compose up -d
 ```
-# This will generate twi services :
+### This will generate two services :
    1. Rent-flutter:
       this for the flutter app and it is mapped to port :8000
    2. Rent-service:
