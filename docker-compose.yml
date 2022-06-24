@@ -1,0 +1,20 @@
+version: '2.6'
+services:
+  rent-service:
+    build: ./rent-service
+    restart: always
+    container_name: rent-service
+    ports:
+      - "3000:3000"
+    env_file : ./rent-service/.env
+
+  rent-flutter:
+    build: ./rent_flutter_task
+    restart: always
+    container_name: rent-flutter
+    ports:
+      - "8000:80"
+    environment:
+      - BASE_URL=http://rent-service:3000
+    depends_on:
+      - rent-service

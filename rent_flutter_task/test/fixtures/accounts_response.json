@@ -1,0 +1,16 @@
+[
+    {
+      "name": "name",
+      "email": "hesham@gamil.com",
+      "phone": "94949499494",
+      "addressComposite": "egypt, cairo",
+      "accountNumber": "123",
+      "stateCode": 494,
+      "addressCity": "cairo",
+      "addressLine1": "cairo",
+      "addressStateOrProvince": "949",
+      "addressPostalCode": "99494",
+      "accountId": "1",
+      "addressCountry": "egypt"
+    }
+  ]
